@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		2A80F62E27C38A90007DF336 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A80F62D27C38A90007DF336 /* AppDelegate.swift */; };
 		2A80F63027C38A90007DF336 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A80F62F27C38A90007DF336 /* SceneDelegate.swift */; };
-		2A80F63227C38A90007DF336 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A80F63127C38A90007DF336 /* ContainerViewController.swift */; };
+		2A80F63227C38A90007DF336 /* ContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A80F63127C38A90007DF336 /* ContainerController.swift */; };
 		2A80F63727C38A91007DF336 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A80F63627C38A91007DF336 /* Assets.xcassets */; };
 		2A80F63A27C38A91007DF336 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A80F63827C38A91007DF336 /* LaunchScreen.storyboard */; };
-		2A80F65F27C38FDF007DF336 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A80F65E27C38FDF007DF336 /* MenuViewController.swift */; };
-		2A80F66127C38FF2007DF336 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A80F66027C38FF2007DF336 /* HomeViewController.swift */; };
+		2A80F65F27C38FDF007DF336 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A80F65E27C38FDF007DF336 /* MenuController.swift */; };
+		2A80F66127C38FF2007DF336 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A80F66027C38FF2007DF336 /* HomeController.swift */; };
+		2A80F66327C3A3B6007DF336 /* InfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A80F66227C3A3B6007DF336 /* InfoController.swift */; };
+		2A80F76527C5D946007DF336 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A80F76427C5D946007DF336 /* MenuCell.swift */; };
+		2A80F76827C5DA2B007DF336 /* MenuCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A80F76727C5DA2B007DF336 /* MenuCellViewModel.swift */; };
+		2A80F76B27C5DDDE007DF336 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A80F76A27C5DDDE007DF336 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,14 +41,18 @@
 		2A80F62A27C38A90007DF336 /* SideMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SideMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A80F62D27C38A90007DF336 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A80F62F27C38A90007DF336 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2A80F63127C38A90007DF336 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		2A80F63127C38A90007DF336 /* ContainerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerController.swift; sourceTree = "<group>"; };
 		2A80F63627C38A91007DF336 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A80F63927C38A91007DF336 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A80F63B27C38A91007DF336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A80F64027C38A91007DF336 /* SideMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SideMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A80F64A27C38A91007DF336 /* SideMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SideMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A80F65E27C38FDF007DF336 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
-		2A80F66027C38FF2007DF336 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2A80F65E27C38FDF007DF336 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		2A80F66027C38FF2007DF336 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		2A80F66227C3A3B6007DF336 /* InfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoController.swift; sourceTree = "<group>"; };
+		2A80F76427C5D946007DF336 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		2A80F76727C5DA2B007DF336 /* MenuCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCellViewModel.swift; sourceTree = "<group>"; };
+		2A80F76A27C5DDDE007DF336 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +101,11 @@
 		2A80F62C27C38A90007DF336 /* SideMenu */ = {
 			isa = PBXGroup;
 			children = (
-				2A80F65D27C38FA3007DF336 /* controller */,
+				2A80F76927C5DDD7007DF336 /* Utils */,
+				2A80F76627C5DA20007DF336 /* ViewModel */,
+				2A80F76127C5D905007DF336 /* Controller */,
+				2A80F76227C5D922007DF336 /* View */,
+				2A80F76327C5D933007DF336 /* Model */,
 				2A80F62D27C38A90007DF336 /* AppDelegate.swift */,
 				2A80F62F27C38A90007DF336 /* SceneDelegate.swift */,
 				2A80F63627C38A91007DF336 /* Assets.xcassets */,
@@ -103,14 +115,47 @@
 			path = SideMenu;
 			sourceTree = "<group>";
 		};
-		2A80F65D27C38FA3007DF336 /* controller */ = {
+		2A80F76127C5D905007DF336 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				2A80F63127C38A90007DF336 /* ContainerViewController.swift */,
-				2A80F65E27C38FDF007DF336 /* MenuViewController.swift */,
-				2A80F66027C38FF2007DF336 /* HomeViewController.swift */,
+				2A80F66227C3A3B6007DF336 /* InfoController.swift */,
+				2A80F66027C38FF2007DF336 /* HomeController.swift */,
+				2A80F65E27C38FDF007DF336 /* MenuController.swift */,
+				2A80F63127C38A90007DF336 /* ContainerController.swift */,
 			);
-			path = controller;
+			name = Controller;
+			path = controller/Controller;
+			sourceTree = "<group>";
+		};
+		2A80F76227C5D922007DF336 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2A80F76427C5D946007DF336 /* MenuCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2A80F76327C5D933007DF336 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2A80F76627C5DA20007DF336 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2A80F76727C5DA2B007DF336 /* MenuCellViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2A80F76927C5DDD7007DF336 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2A80F76A27C5DDDE007DF336 /* Color.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,11 +288,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A80F66127C38FF2007DF336 /* HomeViewController.swift in Sources */,
-				2A80F63227C38A90007DF336 /* ContainerViewController.swift in Sources */,
+				2A80F76527C5D946007DF336 /* MenuCell.swift in Sources */,
+				2A80F66127C38FF2007DF336 /* HomeController.swift in Sources */,
+				2A80F63227C38A90007DF336 /* ContainerController.swift in Sources */,
+				2A80F76827C5DA2B007DF336 /* MenuCellViewModel.swift in Sources */,
 				2A80F62E27C38A90007DF336 /* AppDelegate.swift in Sources */,
 				2A80F63027C38A90007DF336 /* SceneDelegate.swift in Sources */,
-				2A80F65F27C38FDF007DF336 /* MenuViewController.swift in Sources */,
+				2A80F66327C3A3B6007DF336 /* InfoController.swift in Sources */,
+				2A80F65F27C38FDF007DF336 /* MenuController.swift in Sources */,
+				2A80F76B27C5DDDE007DF336 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

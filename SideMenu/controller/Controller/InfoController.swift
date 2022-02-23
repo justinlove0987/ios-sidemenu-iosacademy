@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  InfoViewController.swift
 //  SideMenu
 //
 //  Created by justin.tseng on 2022/2/21.
@@ -7,13 +7,14 @@
 
 import UIKit
 
-class ContainerViewController: UIViewController {
+class InfoController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .red
+
+        title = "About This App"
+        view.backgroundColor = .systemGreen
     }
 
 
 }
-
